@@ -1,0 +1,19 @@
+# Основные библиотеки
+pyTelegramBotAPI>=4.12.0
+requests>=2.31.0
+
+# Для работы с аудио
+SpeechRecognition>=3.10.0
+pydub>=0.25.1
+
+# База данных
+sqlite3
+
+# Дополнительные зависимости для работы с аудио
+python-dotenv>=1.0.0
+ffmpeg-python>=0.2.0
+
+# Системные зависимости
+# Примечание: ffmpeg должен быть установлен в системе
+# для Ubuntu/Debian: sudo apt-get install ffmpeg
+# для Windows: скачать и установить ffmpeg

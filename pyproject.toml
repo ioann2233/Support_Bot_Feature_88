@@ -1,0 +1,25 @@
+[project]
+name = "traffic-incident-bot"
+version = "1.0.0"
+description = "Telegram bot for traffic incident reporting"
+requires-python = ">=3.8"
+
+[project.dependencies]
+pyTelegramBotAPI = "^4.12.0"
+requests = "^2.31.0"
+SpeechRecognition = "^3.10.0"
+pydub = "^0.25.1"
+python-dotenv = "^1.0.0"
+ffmpeg-python = "^0.2.0"
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
